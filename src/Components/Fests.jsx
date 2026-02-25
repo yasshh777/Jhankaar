@@ -1,5 +1,5 @@
 
-import dance from "../assets/temp.jpg";
+import dance from "../assets/dance.jpg";
 import drama from "../assets/drama.jpg";
 import singing from "../assets/singing.jpg";
 import standup from "../assets/standup.jpg";
