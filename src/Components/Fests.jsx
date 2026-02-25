@@ -1,10 +1,10 @@
 
-import dance from "../assets/Dance.jpg";
+import dance from "../assets/dance.jpg";
 import drama from "../assets/drama.jpg";
 import singing from "../assets/singing.jpg";
 import standup from "../assets/standup.jpg";
-import fashionShow from "../assets/fashion Show.jpg";
-import Mr from "../assets/Mr Jhankaar.jpg";
+import fashionShow from "../assets/fashionshow.jpg";
+import Mr from "../assets/mr&mrs.jpg";
 import { useEffect } from "react";
 
 const events = [
