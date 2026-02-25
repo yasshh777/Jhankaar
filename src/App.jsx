@@ -58,6 +58,7 @@ import CelebrationForm from './Signup/CelebrationForm';
 import AdminLogin from './Signup/AdminLogin';
 import AdminSignup from './Signup/AdminSignup';
 import StudentDashboard from './Signup/StudentDashboard';
+import Announcements from './pages/announcement';
 
 
 const Fests = lazy(() => import('./Components/Fests'));
@@ -93,6 +94,7 @@ function App() {
           <Route path="/adminlogin" element={<AdminLogin />} />
           <Route path="/adminsignup" element={<AdminSignup />} />
           <Route path="/studentdashboard" element={<StudentDashboard />} />
+          <Route path="/announcements" element={<Announcements />} />
         </Routes>
       </div>
     </Router>

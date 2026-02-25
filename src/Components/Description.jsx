@@ -4,6 +4,7 @@
 import { useEffect } from "react";
 import AOS from "aos";
 // import "aos/dist/aos.css";
+import { Link } from 'react-router-dom';
 import { FaMusic, FaBrain, FaUsers, FaTrophy } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
@@ -39,6 +40,15 @@ export default function Description() {
 
   return (
     <section className="w-full py-10 text-white" id="about">
+     <div className="w-full flex justify-center items-center py-10">
+  <Link to="/announcements" className="w-full max-w-md">
+    <button
+      className="w-full bg-gradient-to-r from-pink-500 to-yellow-500 text-black px-6 py-3 rounded-full font-semibold hover:scale-105 transition-transform duration-500 font-playfai hover:animate-bounce shadow-lg"
+    >
+      View Audition Schedule & Results
+    </button>
+  </Link>
+</div>
       <div className="max-w-6xl mx-auto px-4">
         <h2
           className="text-4xl text-center mb-4 text-heading font-baskerville 
