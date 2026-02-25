@@ -1,10 +1,10 @@
 
-import dance from "../assets/dancing.webp";
-import drama from "../assets/drama.webp";
-import singing from "../assets/singing.webp";
-import standup from "../assets/standup.webp";
-import fashionShow from "../assets/fashionShow.webp";
-import Mr from "../assets/Mr-Mrs.webp";
+import dance from "../assets/Dance.jpg";
+import drama from "../assets/drama.jpg";
+import singing from "../assets/singing.jpg";
+import standup from "../assets/standup.jpg";
+import fashionShow from "../assets/fashion Show.jpg";
+import Mr from "../assets/Mr Jhankaar.jpg";
 import { useEffect } from "react";
 
 const events = [
@@ -74,7 +74,7 @@ export default function Fests() {
            
             // data-aos-delay={index * 100}
           >
-            <div className="w-full md:w-1/2 h-80 flex items-center justify-center">
+            <div className="w-full md:w-1/2 h-80 flex items-center overflow-hidden justify-center">
               <img
                 src={event.image}
                 alt={event.title}
